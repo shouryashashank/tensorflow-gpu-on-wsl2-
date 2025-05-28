@@ -258,6 +258,11 @@ Validate the PyTorch installation.
 import torch
 torch.cuda.is_available()
 ```
+
+-------------------------------------------------------------------------------------------------------------------
+
+### Update 28 may, 2025  
+
 Upgrade torch , transformer to support newer models
 this will internally upgrade cuda to 12.6  (next version will require complete reinstalation of cuda)
 
