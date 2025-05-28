@@ -258,4 +258,15 @@ Validate the PyTorch installation.
 import torch
 torch.cuda.is_available()
 ```
+Upgrade torch , transformer to support newer models
+this will internally upgrade cuda to 12.6  (next version will require complete reinstalation of cuda)
+
+```
+pip3 install --upgrade torch torchvision torchaudio
+```
+
+after this upgrade transformer
+```
+pip install transformers --upgrade
+```
 
