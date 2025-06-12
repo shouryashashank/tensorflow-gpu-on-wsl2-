@@ -1,4 +1,4 @@
-# tensorflow-gpu-on-wsl2-
+# tensorflow-gpu-on-wsl2
 tensorflow gpu on wsl2 with tensor rt support
 ## Install TensorFlow GPU on WSL2 Ubuntu 24.04 (Windows 11) | CUDA, cuDNN, TensorRT &amp; PyTorch
 
