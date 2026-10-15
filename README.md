@@ -9,6 +9,7 @@ tensorflow gpu on wsl2 with tensor rt support
 ### TensorRT Support for TensorFlow 2.16.1:
 [Click here to visit the GitHub issue for TensorRT support in TensorFlow 2.16.1](https://github.com/tensorflow/tensorflow/issues/61468)
 
+Download these first then proceeded.
 
 ```bash
 sudo apt update
@@ -21,9 +22,14 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 bash ./Miniconda3-latest-Linux-x86_64.sh
 ```
+you don't have to use miniconda. use vanilla python just make sure to use different global env you want to keep it seperate from your main env
+
+### update 
+
+use uv
 
 
-install in the hom dir 
+install in the home dir 
 
 
 
@@ -37,7 +43,7 @@ wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/
 
 sudo sh cuda_12.1.1_530.30.02_linux.run
 ```
-accept the eula and
+accept the eula and give jensen full access to your soul 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ CUDA Installer                                                               │
@@ -157,11 +163,12 @@ Compile the code.
 ```
 gcc -o test_cudnn test_cudnn.c -I/usr/local/cuda-12.1/include -L/usr/local/cuda-12.1/lib64 -lcudnn
 ```
-Run the code.
+pray and run the code.
 ```
 ./test_cudnn
 ```
 It should return "cuDNN successfully initialized."
+If it doesn't then reasses your faith and try again
 
 ### Now we install TensorRT.
 
